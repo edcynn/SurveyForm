@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href= "design.css">
+    
+</head>
+<body>
+    <div id="header">
+        <div id="imgsec"><img id="logo" src="logo1.png"></div>
+        <div id="title-align">
+        <h1 id="title">HOGWARTS UNIVERSITY</h1>
+        <p id="description">School of Magic</p>
+        </div>
+    </div>
+    
+    <section id="outerform">
+    <section id="innerform">
+    <form id="survey-form" action="thankyou.html"><br>
+    
+    <div id="container"><h3 id="formtitle">Student Enrollment Form</h3></div>
+    
+        <label id="name-label">Student's Name:</label><br>
+
+        <div class="combo">
+                <input type="text" name="name" id="name" placeholder="First Name" style="width: 180px">
+                <input type="text" name="name" id="name" placeholder="Last Name" style="width: 180px">
+        </div><br>
+
+     
+        <label id="dropdown">Birthday</label><br>
+
+        <div class="combo">
+            <select name="birthmonth" id="birthmonth" style="width: 150px">
+                <option value=""></option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+                </select>
+        
+                <select name="birthdate" id="birthdate" style="width: 100px">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+        
+            <select name="birthyear" id="birthyear" style="width: 100px">
+                <option value=""></option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                </select>
+
+        </div>  
+
+        <div class="align">
+            <label id="BM">Birthmonth</label>
+            <label id="BD">Birthdate</label>
+            <label id="BY">Birthyear</label>
+        </div><br>
+
+        <div class="align">
+            <label id="email-label">Email Adress:</label>
+            <label id="age">Age:</label>
+            </div><br>
+        
+
+        <div class="combo">
+            <input type="email" name="email" id="email" placeholder="Email Address" style="width: 300px">
+            <input type="number" name="number" id="number" min="15" max="70" style="width: 50px">
+        </div>
+        
+        
+        <div class="align">
+            <label id="number-label">Phone number:</label>
+            <label id="gender">Gender:</label>
+            </div>
+        
+            <div class="combo">
+            <input type="numbers" name="number" id="number" max="11" min="11" pattern="[0-9]{11}" style="width: 200px"></label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </div><br>
+
+
+            <label for="language">Known Languages:</label><br>
+
+
+                <input type="checkbox" id="lang1" name="Mandarin" value="Mandarin">
+                <label for="subj1">Mandarin</label>
+                <input type="checkbox" id="lang2" name="English" value="English">
+                <label for="subj1">English</label>
+                <input type="checkbox" id="lang3" name="Spanish" value="Spanish">
+                <label for="subj1">Spanish</label>
+                <input type="checkbox" id="lang4" name="Korean" value="Korean">
+                <label for="subj1">Korean</label><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50">Leave your comments here</textarea>
+        
+        <section id="button"><input type="submit" name="submit" id="submit" value="Send"></section>
+
+
+        
+
+        
+
+    </form>
+</section>
+</section>
+</body>
+</html>
+

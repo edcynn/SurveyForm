@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#imgsec {
+  display: flex;
+  margin-left: 225px;
+  margin-right: 50px;
+}
+#title-align {
+  vertical-align: middle;
+  padding-bottom: 30px;
+}
+body {
+  background-image: url("bg6.jpg");
+}
+#title {
+  font-family: "Times New Roman", Times, serif;
+  color: #d3a625;
+  font-size: 50px;
+  padding-top: 30px;
+}
+#description {
+  font-family: "Times New Roman", Times, serif;
+  color: #d3a625;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+#header {
+  background-color: maroon;
+  display: flex;
+  justify-content: flex-start;
+  height: 150px;
+  align-items: center;
+  text-align: center;
+}
+#logo {
+  height: 115px;
+  width: 150px;
+}
+
+#outerform {
+  height: 600px;
+  width: 500px;
+  background-image: url("bg4.webp");
+  border-radius: 12px;
+  box-shadow: 2px 5px 10px #aaa;
+  margin: auto;
+  color: whitesmoke;
+  font-family: arial;
+}
+
+#innerform {
+  margin: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#formtitle {
+  color: rgba(138, 43, 130, 0.822);
+  background-color: lightsalmon;
+  margin-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+#FN {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#LN {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#fnln {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.combo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.align {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#FN {
+  margin-right: 133px;
+}
+#BM {
+  margin-right: 100px;
+}
+#BD {
+  margin-right: 60px;
+}
+#birthmonth {
+  border-radius: 8px;
+}
+#birthdate {
+  border-radius: 8px;
+}
+#birthyear {
+  border-radius: 8px;
+}
+#number-label {
+  margin-right: 128px;
+}
+#name {
+  border-radius: 8px;
+}
+#email {
+  border-radius: 8px;
+}
+#number {
+  border-radius: 8px;
+}
+#male {
+  border-radius: 8px;
+}
+#female {
+  border-radius: 8px;
+}
+#comments {
+  border-radius: 6px;
+}
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+#number {
+  padding-left: 5px;
+}
+#email-label {
+  margin-right: 243px;
+}

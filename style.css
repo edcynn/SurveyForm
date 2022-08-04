@@ -1,0 +1,3 @@
+body {background-image: url('bg.jpg')}
+p { display:flex; justify-content: center; align-items: center; color: rgb(218, 206, 177); padding-top: 30px; font-family:'Times New Roman', Times, serif; font-size: 100px;}
+
